@@ -1,4 +1,4 @@
-# natural_disasters_map
+# natural-disasters-map
 Natural disasters map with Leaflet and some APIs
 
 * [Leaflet](https://leafletjs.com/)

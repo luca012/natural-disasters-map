@@ -1,6 +1,6 @@
 # Natural Disasters Map
 
-An interactive web application for exploring natural disasters around the world, including **earthquakes, wildfires, and floods**.
+An interactive web application for exploring natural disasters around the world, in particular earthquakes, wildfires, and floods.
 
 The application retrieves data from external APIs and visualizes events on an interactive map using Leaflet. Users can select a time interval, browse events geographically, inspect their details, and sort the available data.
 
@@ -8,8 +8,8 @@ The application retrieves data from external APIs and visualizes events on an in
 
 ## Features
 
-- Display **earthquakes, wildfires, and floods** on an interactive world map
-- Search for events within a selected **date range**
+- Display earthquakes, wildfires, and floods on an interactive world map
+- Search for events within a selected date range
 - Visualize events using geographic markers
 - Cluster map markers when displaying large numbers of events
 - View detailed information about individual events

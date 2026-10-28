@@ -50,7 +50,7 @@ Selecting an event from the list moves the map to its geographic location, while
 Clone the repository:
 
 ```bash
-git clone https://github.com/luca012/natural_disasters_map.git
+git clone https://github.com/luca012/natural-disasters-map.git
 cd natural_disasters_map
 ```
 

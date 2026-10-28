@@ -22,7 +22,23 @@ function getFormattedDate(date, time) {
     return (formatted.toLocaleString()).substring(0, 16);
 }
 
-let url = "https://firms2.modaps.eosdis.nasa.gov/api/area/csv/c03d313cc71b715e1337f88841cf55e6/VIIRS_SNPP_NRT/world/" + getDifferenceBetweenDates() + "/" + startDate + "/";
+const mapKey = window.APP_CONFIG?.FIRMS_MAP_KEY;
+
+if (!mapKey) {
+    throw new Error(
+        "FIRMS MAP_KEY not configured. Copy config.example.js to config.js and add your key."
+    );
+}
+
+let url =
+    "https://firms2.modaps.eosdis.nasa.gov/api/area/csv/" +
+    mapKey +
+    "/VIIRS_NOAA21_NRT/world/" +
+    getDifferenceBetweenDates() +
+    "/" +
+    startDate +
+    "/";
+
 var results = [];
 var currentPage = Number(document.getElementById("page-number").innerHTML);
 var mapSpinner = document.getElementById("map-spinner");

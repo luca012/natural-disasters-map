@@ -1,0 +1,3 @@
+window.APP_CONFIG = {
+    FIRMS_MAP_KEY: "YOUR_FIRMS_MAP_KEY"
+};

@@ -67,3 +67,12 @@ http://localhost:8000
 ```
 
 Some functionality depends on the availability and usage limits of the external APIs.
+
+### NASA FIRMS API key
+
+Wildfire data requires a free NASA FIRMS MAP_KEY.
+
+1. Request a key from the NASA FIRMS website.
+2. Copy `js/config.example.js` to `js/config.js`.
+3. Replace `YOUR_FIRMS_MAP_KEY` with your key.
+4. `config.js` is ignored by Git and should not be committed.

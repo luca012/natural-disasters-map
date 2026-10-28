@@ -70,7 +70,7 @@ Some functionality depends on the availability and usage limits of the external 
 
 ### NASA FIRMS API key
 
-Wildfire data requires a free NASA FIRMS MAP_KEY.
+Wildfire data requires a free NASA FIRMS MAP_KEY (I deactivated the one I used for demo purposes).
 
 1. Request a key from the NASA FIRMS website.
 2. Copy `js/config.example.js` to `js/config.js`.
